@@ -9,7 +9,7 @@ const Contact = () => {
       className="relative flex flex-col items-center justify-center min-h-screen px-4 py-12 gap-12"
       id="contact"
     >
-      {/* Konten Utama */}
+
       <div
         className="flex flex-col items-center text-center max-w-xl"
         data-aos="fade-down"
@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Footer */}
+
       <div className="w-full">
         <FooterDivider />
         <div className="text-center mt-4">

@@ -29,6 +29,7 @@ const  Header = () => {
         <Navbar.Collapse>
           <Navbar.Link href="#Home">Home</Navbar.Link>
           <Navbar.Link href="#About">About</Navbar.Link>
+          <Navbar.Link href="#Skills">Skills</Navbar.Link>
           <Navbar.Link href="#Portfolio">Portfolio</Navbar.Link>
         </Navbar.Collapse>
     </Navbar>

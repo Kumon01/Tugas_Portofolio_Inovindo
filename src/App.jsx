@@ -3,6 +3,7 @@
   import Profile from './Components/Profile'
   import Header from './Components/Header'
   import About from './Components/About'
+  import Skills from './Components/Skills'
   import Portfolio from './Components/Portfolio'
   import Contact from './Components/Contact'
 
@@ -18,6 +19,7 @@
         <Header />
         <Profile />
         <About />
+        <Skills/>
         <Portfolio />
         <Contact />
       </>  
