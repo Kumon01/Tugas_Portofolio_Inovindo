@@ -1,41 +1,63 @@
-import { Button, FooterCopyright, FooterDivider } from 'flowbite-react'
-import React from 'react'
+import { Button, FooterCopyright, FooterDivider } from "flowbite-react";
+import React from "react";
+import { MdMail } from "react-icons/md";
+import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
 
-import { MdMail } from 'react-icons/md'
-import { FaDiscord, FaGithub, FaInstagram } from 'react-icons/fa'
-    
-    const Contact = () => {
-      return (
-        <div className="relative flex items-center justify-evenly h-screen gap-8 flex-wrap" id='contact'>
-           
-        <div className="flex flex-col" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-          <div>
-          <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white" >
-            Contact Me!!
-          </h5>
-          <span >Have questions or want to work with me? Contact me today!</span>
-          </div>
-          
-          <div className="flex gap-7 mt-9 flex-row" data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-            <a href="Dynand2701@gmail.com"><MdMail className='w-10 h-10'/></a>
-            <a href="https://github.com/Kumon01" ><FaGithub className='w-10 h-10'/></a>
-            <a href="#" ><FaInstagram className='w-10 h-10'/></a>
-            <a href="#" ><FaDiscord className='w-10 h-10'/></a>
-          </div>
+const Contact = () => {
+  return (
+    <div
+      className="relative flex flex-col items-center justify-center min-h-screen px-4 py-12 gap-12"
+      id="contact"
+    >
+      {/* Konten Utama */}
+      <div
+        className="flex flex-col items-center text-center max-w-xl"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h5 className="mb-3 text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">
+          Contact Me!!
+        </h5>
+        <p className="text-gray-600 dark:text-gray-300">
+          Have questions or want to work with me? Contact me today!
+        </p>
+
+        <div
+          className="flex gap-7 mt-9"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <a href="Dynand2701@gmail.com" aria-label="Email">
+            <MdMail className="w-10 h-10 hover:text-blue-500 transition-colors duration-200" />
+          </a>
+          <a
+            href="https://github.com/Kumon01"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub className="w-10 h-10 hover:text-gray-700 dark:hover:text-white transition-colors duration-200" />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <FaInstagram className="w-10 h-10 hover:text-pink-500 transition-colors duration-200" />
+          </a>
+          <a href="#" aria-label="Discord">
+            <FaDiscord className="w-10 h-10 hover:text-indigo-500 transition-colors duration-200" />
+          </a>
         </div>
-        
-        <div className="w-full text-center">
+      </div>
+
+      {/* Footer */}
+      <div className="w-full">
         <FooterDivider />
-        <FooterCopyright href="#" by="Dynand™" year={2024} /> 
+        <div className="text-center mt-4">
+          <FooterCopyright href="#" by="Dynand™" year={2024} />
         </div>
-        </div>
-        
-      )
-    }
+      </div>
+    </div>
+  );
+};
 
 export default Contact;
-

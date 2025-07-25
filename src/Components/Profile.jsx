@@ -12,7 +12,7 @@ const Profile = () => {
           <h1 className="mb-1 text-xs font-medium text-yellow-900 dark:text-white">Hallo World,I'm</h1>
           <h5 className="mb-1 text-3xl font-bold text-gray-900 dark:text-white"  data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
-            Dynand ibnukafi Pratama</h5>
+            Dynand Ibnukafi Pratama</h5>
           <h5 className="mb-1 text-lg font-medium text-gray-900 dark:text-white"  data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
             <ReactTyped strings={["Junior Programing","Junior Programing"]} typeSpeed={150} /></h5>
