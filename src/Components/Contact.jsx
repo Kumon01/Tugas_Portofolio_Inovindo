@@ -1,13 +1,13 @@
 import { Button, FooterCopyright, FooterDivider } from "flowbite-react";
 import React from "react";
 import { MdMail } from "react-icons/md";
-import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div
       className="relative flex flex-col items-center justify-center min-h-screen px-4 py-12 gap-12"
-      id="contact"
+      id="Contact"
     >
 
       <div
@@ -29,7 +29,7 @@ const Contact = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <a href="Dynand2701@gmail.com" aria-label="Email">
+          <a href="mailto:Dynand2701@gmail.com" aria-label="Email">
             <MdMail className="w-10 h-10 hover:text-blue-500 transition-colors duration-200" />
           </a>
           <a
@@ -43,13 +43,20 @@ const Contact = () => {
           <a href="#" aria-label="Instagram">
             <FaInstagram className="w-10 h-10 hover:text-pink-500 transition-colors duration-200" />
           </a>
-          <a href="#" aria-label="Discord">
-            <FaDiscord className="w-10 h-10 hover:text-indigo-500 transition-colors duration-200" />
+          <a 
+            href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BryarxQTORNa%2FJceI6IBtmw%3D%3D" 
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="w-10 h-10 hover:text-indigo-500 transition-colors duration-200" />
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <FaWhatsapp className="w-10 h-10 hover:text-green-500 transition-colors duration-200" />
           </a>
         </div>
       </div>
-
-
+      
       <div className="w-full">
         <FooterDivider />
         <div className="text-center mt-4">

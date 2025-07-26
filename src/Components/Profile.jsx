@@ -1,6 +1,5 @@
 import React from "react"
 import pp from '../assets/pp.jpg'
-import { Card } from 'flowbite-react'
 import { ReactTyped } from "react-typed";
 
 

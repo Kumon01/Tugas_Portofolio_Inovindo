@@ -31,9 +31,7 @@ const Portfolio = () => {
       id="Portfolio"
     >
       <h5
-        className="mb-8 text-2xl font-bold text-center text-gray-900 dark:text-white"
-        data-aos="fade-down"
-        data-aos-duration="500"
+        className="text-4xl font-bold text-center mb-8 text-gray-900 dark:text-white"
       >
         My Project
       </h5>
