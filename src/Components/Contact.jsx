@@ -40,9 +40,6 @@ const Contact = () => {
           >
             <FaGithub className="w-10 h-10 hover:text-gray-700 dark:hover:text-white transition-colors duration-200" />
           </a>
-          <a href="#" aria-label="Instagram">
-            <FaInstagram className="w-10 h-10 hover:text-pink-500 transition-colors duration-200" />
-          </a>
           <a 
             href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BryarxQTORNa%2FJceI6IBtmw%3D%3D" 
             aria-label="LinkedIn"
@@ -50,9 +47,6 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin className="w-10 h-10 hover:text-indigo-500 transition-colors duration-200" />
-          </a>
-          <a href="#" aria-label="WhatsApp">
-            <FaWhatsapp className="w-10 h-10 hover:text-green-500 transition-colors duration-200" />
           </a>
         </div>
       </div>
